@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Libre Baskerville', serif;
+}
+p{
+    color: #fb1e45;
+}
+/* CSS FOR NAVIGATION BAR */
+#navbar {
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 0px 2px;
+    background-color: #7d7979;
+}
+#navbar li {
+    list-style: none;
+    margin: 17px 15px;
+}
+#navbar li a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+}
+#navbar li a:hover{
+    /* background-color: white; */
+    color: #fb1e45;
+}
+#logo {
+    height:60px;
+    width: 60px;
+    filter: brightness(0) invert(1);
+}
+/* CSS FOR INTRO  */
+#intro{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 1320px;
+    align-items: center;
+} 
+#intro::before{
+    content: "";
+    top: 0px;
+    height: 58%;
+    width: 100%;
+    position: absolute;
+    background: url('img1.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.5;
+} 
+#container_1 h1{
+    font-size: 60px;
+    color: #fb1e45;
+}
+#container_1 p{
+    /* font-size: 60px; */
+    color: #fb1e45;
+    text-align: center;
+    font-weight: bold;  
+}
+/* CSS FOR WHAT WE DO CONTAINER */
+#what_we_do {
+    display: flex;
+    margin: 100px;
+    padding: 5px;
+    justify-content: center;
+    border: 5px solid #fb1e45;
+    align-items: center;
+    color: #fb1e45; 
+}
+#what_we_do h1{
+    text-align: center;
+    font-size: 36px;
+}
+#what_we_do p{
+    /* border: 2px solid red; */
+    width: 507px;    
+    margin: 18px;
+    padding: 10px;
+    text-align: center;
+}
+#img2 {
+    height: 220px;
+    width: 284px;
+    margin: 30px;
+    margin-right: 14px;
+}
+/* CSS FOR OUR FEATURES */
+
+#our_features{
+    display: flex;
+    /* border: 2px solid red; */
+    padding: 30px;
+    background-color: #7d7979;
+}
+.box {
+    border: 2px solid white;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items:center;
+}
+.block_img{
+    height: 147px;
+    width: 188px;
+}
+#box_1{
+    width: 1000px;
+}
+#box_2{
+    margin-left: 40px;
+}
+.text_box h2{
+    color:white;
+    margin: 20px;
+    text-align: center;
+}
+.text_box p{
+    color:white;
+}
+.text_box{
+    margin: 30px;
+}
+/* CSS FOR FOOTER */
+#container_of_footer{
+    padding:30px;
+    /* border: 4px solid red; */
+}
+#end {
+    text-align: center
+}
+
+
