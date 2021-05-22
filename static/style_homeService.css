@@ -1,0 +1,92 @@
+/* CSS FOR SECTION */
+*{
+    font-family: 'Farro', sans-serif;
+}
+#section_for_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    /* border: 2px solid red: */
+    /* background-color: #f3b1bd; */
+}
+#section_for_form::before{
+    content: "";
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    background: url('img7.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+/* CSS FOR THE START */
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin: 30px;
+    margin-bottom: 10px;
+}
+#img{
+    height: 80px;
+    width: 100px;
+    margin-right: 10px;
+    filter: brightness(0);
+}
+.start h1 {
+    margin-left: 10px;
+    color:black ;
+    font-weight: bold;
+}
+
+/* CSS FOR THE FORM  */
+#form {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    padding: 10px;
+}
+.fields {
+    margin: 10px;
+}
+.fields label {
+    color: black;
+    margin: 5px;
+}
+.field {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 8px;
+    outline: none;
+}
+#textarea {
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: var(--pink);
+    border: 2px solid var black;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #fa4566 ;
+}
+#contact {
+    width: 185px;
+}
+
+/* ROOT */
+:root {
+    --pink: #fb1e45;
+    --grey: #7d7979;
+}

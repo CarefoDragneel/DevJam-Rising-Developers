@@ -7,8 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Symbiosis | The site to help</title>
     <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../static/style_homeService.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Farro&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -24,6 +27,34 @@
             </ul>
         </nav>
     </header>
+    <section id="section_for_form">
+        <div class="start">
+            <img src="../static/Logo.png" id="img">
+            <h1> At Home Service </h1>
+        </div>
+        <form action="/homeService" method="post" id="form">
+            <div class="fields">
+                <label for="name">Enter your name:</label>
+                <input type="text" name="name" id="name" class="field" placeholder="Enter your name here">
+            </div>
+            <div class="fields">
+                <label for="email">Enter your email:</label>
+                <input type="email" name="email" id="email" class="field" placeholder="Enter your email here">             
+            </div>
+            <div class="fields">
+                <label for="contact"> Enter your contact number:</label>
+                <input type="number" name="contact" id="contact" class="field" placeholder="Enter your number here">            
+            </div>
+            <div id="textarea"class="fields">
+                <label for="materials"> Enter your address:</label>
+                <textarea name="address" id="materials" class="field" cols="30" rows="5" placeholder="Enter address here"></textarea>            
+            </div>
+            <div class="button">
+                <input type="submit" class="btn" value="Submit">
+                <input type="reset" class="btn" value="Reset">
+            </div>
+        </form>
+    </section>
     <!-- Footer  -->
     <footer>
         <div id="container_of_footer">
